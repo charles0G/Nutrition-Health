@@ -13,6 +13,9 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    font-size: 30px;
+}
 
 .skip {
     color: orangered;
@@ -41,12 +44,52 @@ h1 {
     color: white;
     font-weight: 700;
     padding: 10px 40px;
-    border-radius: 5px;
-    border-radius: 20px;
+    border-radius: 20px 0 20px 0;
+    padding-top: 10px;
 }
 
 .bg {
     background-image: url(images/shapes/7.png);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+.bg1 {
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.images {
+    display: flex;
+}
+
+.images1 {
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px orange;
+    margin-bottom: 150px;
+}
+
+.center {
+    text-align: center;
+}
+
+.foods {
+    background-image: url(images/shapes/Foods.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: rgb(10, 228, 199);
+    font-size: larger;
+    margin-bottom: 30px;
+}
+
+.middle {
+    text-align: center;
+    margin-bottom: 100px;
 }
