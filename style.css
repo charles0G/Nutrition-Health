@@ -5,7 +5,7 @@ body {
 
 .flexible {
     display: flex;
-    margin-bottom: 110px;
+    margin-bottom: 100px;
     padding-left: 30px;
 }
 
@@ -29,6 +29,12 @@ h2 {
 .half-width img {
     width: 80%;
     padding-left: 20px;
+}
+
+.half-width1 {
+    width: 90%;
+    border-radius: dotted black;
+    box-shadow: 10px 10px 10px bisque;
 }
 
 
@@ -56,6 +62,19 @@ h2 {
 
 .bg1 {
     background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bg2 {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 40px;
+}
+
+.bg3 {
+    background-image: url(images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -92,4 +111,57 @@ h2 {
 .middle {
     text-align: center;
     margin-bottom: 100px;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.flexible-container img {
+    width: 100%;
+    margin-right: 10px;
+    margin-left: -10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.shadow {
+    width: 100%;
+    box-shadow: 10px 10px 40px rgb(112, 112, 111);
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-left: 20px;
+    padding-right: 2px;
+    border-radius: 20px;
+}
+
+.flexible1 {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.shadow1 {
+    width: 100%;
+    box-shadow: 10px 10px 40px rgb(112, 112, 111);
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-left: 10px;
+    padding-right: 1px;
+    border-radius: 20px;
+}
+
+footer h2 {
+    text-align: center;
+    color: orangered;
+}
+
+footer p {
+    text-align: center;
+    color: aliceblue;
+}
+
+footer {
+    background-color: black;
+    padding: 80px;
 }
